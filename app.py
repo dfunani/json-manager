@@ -2,6 +2,7 @@ from sys import argv
 from logging import basicConfig, error, info, INFO
 from models.base import DevCMS, ResponseType
 
+
 def main(flags):
     try:
         for flag in flags:

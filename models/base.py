@@ -3,6 +3,7 @@ from json import dump
 from enum import Enum
 from logging import error, info
 
+
 class ResponseType(Enum):
     error = 0
     success = 1
@@ -49,4 +50,3 @@ class DevCMS:
         except BaseException as e:
             error(">>>>>>>>>>>>>>>>>>>>>>>> " + str(e))
             return {}
-
