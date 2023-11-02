@@ -1,7 +1,6 @@
 from models.base import ResponseType
 from models.base import DevCMS
 from os import listdir, remove
-from pytest import raises
 
 
 def test_responsetype():
